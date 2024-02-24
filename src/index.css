@@ -12,10 +12,18 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
 input{
   height: 40px;
   width: 100%;
-  margin-bottom: 20px;
+ 
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 form{
   display: flex;
@@ -27,6 +35,7 @@ justify-content: center;
 .form-group{
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 .container{
   width: 500px;
@@ -56,4 +65,7 @@ button {
   cursor: pointer;
   color: white;
   transition: border-color 0.25s;
+}
+.text-danger{
+  color: red;
 }
